@@ -2,5 +2,69 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(145, 167, 116);
+} 
+body{
+    background: #ecf2f8;
+}
+.testi_container{
+    padding: 2%;
+}
+#testimonial_1{
+    background-color: rgb(121, 104, 104);
+    color: #fff;
+}
+#testimonial_2{
+    background-color: rgb(204, 189, 189);
+    color: #fff;
+}
+#testimonial_3{
+    background-color: rgb(138, 138, 138);
+    color: #fff;
+}
+#testimonial_4{
+    background-color: rgb(95, 29, 29);
+    color: #fff;
+}
+#testimonial_5{
+    background-color: rgb(255, 255, 255);
+    color: #868686;
+}
+.grid_item{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+
+
+@media (min-width: 576px) {
+    .testi_container{
+        display: flex;
+    }
+    #testimonial_5{
+        flex-basis: 20%;
+    }
+    #main_left{
+        display: flex;
+        flex-direction: column;
+    }
+    #top{
+        display: flex;
+        flex-basis: 50%;
+    }
+    #buttom{
+        display: flex;
+        flex-basis: 50%;
+    }
+    #testimonial_1{
+        flex-basis: 75%;
+    }
+    #testimonial_2{
+        flex-basis: 25%;
+    }
+    #testimonial_3{
+        flex-basis: 25%;
+    }
+    #testimonial_4{
+        flex-basis: 75%;
+    }
 }
